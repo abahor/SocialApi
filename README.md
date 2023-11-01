@@ -6,4 +6,6 @@ change the password in the models file then execute these commands:
 - alembic init alembic
 - alembic revision --autogenerate -m "First revision"
 - alembic upgrade head
+
+for downgrading database
 - alembic downgrade -1
