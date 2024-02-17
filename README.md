@@ -7,7 +7,7 @@ change the password in the models file then execute these commands:
 - alembic revision --autogenerate -m "First revision"
 - alembic upgrade head
 
-### Note: ----- after executing the first command go to alembic.ini and change the sqlalchemy.url to the database uri and the metatarget in the env.py file
+### Note: After executing the first command go to alembic.ini and change the sqlalchemy.url to the database uri and the metatarget in the env.py file
 
 for downgrading database
 - alembic downgrade -1
